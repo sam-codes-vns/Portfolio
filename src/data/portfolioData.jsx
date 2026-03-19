@@ -13,10 +13,13 @@ import {
 import {
   SiCplusplus,
   SiExpress,
+  SiFigma,
   SiGooglecloud,
   SiJavascript,
   SiMongodb,
-  SiPostman
+  SiPostman,
+  SiRender,
+  SiVercel
 } from "react-icons/si";
 
 export const personalInfo = {
@@ -33,7 +36,7 @@ export const personalInfo = {
 export const education = [
   {
     institution: "NIMS University",
-    degree: "Bachelor of Engineering in Computer Science",
+    degree: "Bachelor of Technology in Computer Science Engineering",
     duration: "Sep 2022 – Present",
     score: "CGPA: 8.56/10",
   },
@@ -122,40 +125,30 @@ export const projects = [
     image: "/MaViK-39.jpeg",
   },
   {
-    title: "AyurTrace",
-    tech: ["Hyperledger Fabric", "IoT", "React.js", "Smart Contracts"],
+    title: "HR Management System",
+    tech: ["Html/CSS", "JavaScript", "React.js", "Tailwind CSS"],
     description: [
       <>
         <span className="text-accent-1 font-semibold">
-          1st Place Winner SIH 2025 Round 1
+          Engineered a scalable HR dashboard supporting 50+ candidates and multiple HR users with clean component architecture.
         </span>
-        .
+        
       </>,
       <>
-        Directed a{" "}
+        Deployed on{" "}
         <span className="text-text-primary font-medium">
-          blockchain-based supply chain
+          Vercel with responsive layouts
         </span>{" "}
-        web application for Ayurvedic herb traceability.
+        and consistent uptime across devices.
       </>,
-      <>
-        Implemented{" "}
-        <span className="text-text-primary font-medium">
-          immutable on-chain tracking
-        </span>{" "}
-        with QR verification, ensuring{" "}
-        <span className="text-accent-1 font-semibold">
-          100% supply chain transparency
-        </span>
-        .
-      </>,
+      
     ],
     date: "Aug 2025 – Sep 2025",
-    githubLink: "https://github.com/aditiarya37",
-    liveLink: "https://ayurtrace-sepia.vercel.app", // Added Live Link
-    category: "Blockchain",
+    githubLink: "https://github.com/sam-codes-vns/HR_Management_System",
+    liveLink: "https://hr-management-system-gules.vercel.app/", // Added Live Link
+    category: "Frontend API integration",
     icon: <FaDatabase size={24} className="text-accent-1" />,
-    image: "/AyurTrace.png",
+    image: "/HR_Management.png",
   },
 ];
 
@@ -178,6 +171,10 @@ export const skills = {
     { name: "MongoDB", icon: <SiMongodb /> },
     { name: "Postman", icon: <SiPostman /> },
     { name: "AWS Cloud", icon: <SiGooglecloud /> },
+    { name: "Vercel", icon: <SiVercel /> },
+    {name: "Figma", icon: <SiFigma /> },
+    {name: "VS Code", icon: <FaCode /> },
+    {name: "Render", icon: <SiRender /> },
   ],
   coreCompetencies: [
     "Presentations",
@@ -200,10 +197,10 @@ export const skills = {
 export const experience = [
   {
     role: "Web Development Intern",
-    organization: "Eduexpose pvt ltd (Remote)",
-    duration: "Incoming 2026",
+    organization: "Eduexpose (Remote)",
+    duration: "Feb 2026 - Present",
     points: [
-      "Selected as a Product Intern at Eduexpose pvt ltd.",
+      "Selected as a Product Intern at Eduexpose.",
       "Excited to contribute to world-class digital experiences and web innovation.",
     ],
   },
@@ -212,9 +209,10 @@ export const experience = [
     organization: "Uptoskills Tech Foundation (Remote)",
     duration: "May 2025 – July 2025",
     points: [
-      "Developed key components for the Redknot platform, simplifying the global immigration process.",
-      "Collaborated with engineering and design on front-end (React, UI/UX) and back-end services.",
-      "Practiced agile methodologies and maintained high code quality through debugging, testing, and documentation.",
+      "Translated business requirements and Figma designs into responsive, scalable UI components using React & TailwindCSS.",
+      "Developed reusable and modular components, improving maintainability and reducing development effort.",
+      "Conducted Git-based code reviews and refactoring, improving code quality and reducing UI/UX defects.",
+      " Collaborated with designers & backend developers in Agile sprints to ensure seamless feature integration and timely delivery.",
     ],
   },
 ];
