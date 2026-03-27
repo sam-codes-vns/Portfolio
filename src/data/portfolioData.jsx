@@ -56,39 +56,40 @@ export const education = [
 
 export const projects = [
   {
-    title: "DevLink",
+    title: "Ship365",
     tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
     description: [
       <>
-        Designed and developed a{" "}
+       Developed comprehensive  {" "}
         <span className="text-text-primary font-medium">
-          full-stack developer community platform
+          order tracking system
         </span>{" "}
-        enabling users to create profiles, share projects, and collaborate.
+        with customer, agent, and admin dashboards featuring real-time GPS
+        tracking, order status updates, and performance analytics.
       </>,
       <>
-        Owned the system end-to-end by implementing{" "}
+      Implemented secure authentication with {" "}
         <span className="text-text-primary font-medium">
-          frontend architecture
+          2-step OTP verification,
         </span>
-        , <span className="text-text-primary font-medium">backend APIs</span>,
+        , <span className="text-text-primary font-medium">JWT-based authorization,</span>,
         and{" "}
         <span className="text-text-primary font-medium">
-          secure authentication
+          role-based access control
         </span>
-        .
+        for three user types (Customer, Agent, Admin).
       </>,
     ],
-    date: "June 2025 – July 2025",
-    githubLink: "https://github.com/aditiarya37",
-    liveLink: "https://devlink-umber.vercel.app",
+    date: "January 2026 – March 2026",
+    githubLink: "https://github.com/sam-codes-vns/order-tracking-system",
+    liveLink: "https://order-tracking-system-8q3l1y9k0-samriddhis-projects-6847250d.vercel.app/",
     category: "Full Stack",
     icon: <FaReact size={24} className="text-accent-1" />,
-    image: "/DevLink.png",
+    image: "/Ship365.png",
   },
   {
-    title: "MaViK-39",
-    tech: ["RAG", "IoT", "React.js", "TensorFlow", "Cloud"],
+    title: "CoinFlux",
+    tech: ["React.js", "Coingecko API", "Html/CSS", "JavaScript"],
     description: [
       <>
         <span className="text-accent-1 font-semibold">
@@ -97,32 +98,28 @@ export const projects = [
         .
       </>,
       <>
-        Delivered an{" "}
+        Built a responsive {" "}
         <span className="text-text-primary font-medium">
-          IoT-enabled lab management
+          crypto dashboard
         </span>{" "}
-        web application, decreasing equipment downtime by{" "}
-        <span className="text-accent-1 font-semibold">25%</span>.
+        by translating{" "}
+        <span className="text-accent-1 font-semibold">Figma designs</span>into production-ready UI screens.
       </>,
       <>
-        Integrated{" "}
+        Integrated   {" "}
         <span className="text-text-primary font-medium">
-          biometric authentication
+          live market APIs and Chart.js
         </span>
-        , voice interface, and{" "}
-        <span className="text-text-primary font-medium">
-          RAG-powered AI chatbot
-        </span>
-        , improving operational efficiency by{" "}
-        <span className="text-accent-1 font-semibold">40%</span>.
+        visualizations to automate price tracking for{" "}
+        <span className="text-accent-1 font-semibold">50+ cryptocurrencies</span>.
       </>,
     ],
     date: "Nov 2025 – Dec 2025",
-    githubLink: "https://github.com/aditiarya37",
-    liveLink: "https://mavik-39.vercel.app", // Added Live Link
+    githubLink: "https://github.com/sam-codes-vns/Coin-Flux",
+    //liveLink: "https://mavik-39.vercel.app", // Added Live Link
     category: "IoT & AI",
     icon: <FaCode size={24} className="text-accent-1" />,
-    image: "/MaViK-39.jpeg",
+    image: "/CoinFlux.png",
   },
   {
     title: "HR Management System",
