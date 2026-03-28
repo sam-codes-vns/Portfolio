@@ -28,7 +28,7 @@ export const personalInfo = {
   email: "samriddhijaiswal59@gmail.com",
   linkedin: "https://www.linkedin.com/in/samriddhi-jaiswal-a17029j/",
   github: "https://github.com/sam-codes-vns",
-  resumeLink: "/AditiAryaResume.pdf",
+  resumeLink: "https://drive.google.com/file/d/1BtYTS0_TPd60s6E_qokJ334BOdh_JI2O/view?usp=sharing",
   bio: "Innovative Full Stack Developer passionate about creating seamless and impactful web solutions. With a strong foundation in Computer Science and hands-on experience in modern web technologies, I thrive in collaborative environments and love tackling new challenges.",
   shortBio: "I build things for the web.",
 };

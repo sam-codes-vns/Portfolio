@@ -60,7 +60,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="/SamriddhiJaiswalResume.pdf"
+            href="https://drive.google.com/file/d/1BtYTS0_TPd60s6E_qokJ334BOdh_JI2O/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 text-md font-mono font-bold text-accent-1 border border-accent-1 rounded hover:bg-accent-1 hover:text-primary-bg transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg hover:shadow-accent-1/20"
